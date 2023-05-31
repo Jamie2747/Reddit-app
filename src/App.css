@@ -32,7 +32,31 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  max-width: 30%;
+  padding: 0;
+}
+
+/* @media (max-width: 480px) {
+  .side-bar {
+    width: 25%;
+  }
+} */
